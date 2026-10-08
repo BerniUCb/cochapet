@@ -56,6 +56,16 @@ export function buildSeed(now = Date.now()) {
       photos: ["seed:mostaza"], zone: "Cala Cala", reference: "Calle Lucas Mendoza de la Tapia, cerca del colegio", date: isoDaysAgo(8), contactPhone: "67401122", createdAt: now - 8 * 24 * H,
     },
     {
+      id: "p_bruno", ownerId: "u_carlos", type: "perdida", resolved: false, species: "Perro", name: "Bruno", breed: "Bóxer mestizo", color: "Café claro",
+      description: "Macho de 5 años, muy tranquilo y dormilón. Se escapó la noche del viernes. Le encanta echarse en pisos fríos. No tiene collar.",
+      photos: ["seed:bruno"], zone: "Queru Queru", reference: "Av. Santa Cruz, cerca de la plazuela Quintanilla", date: isoDaysAgo(1), contactPhone: "76543210", createdAt: now - 22 * H,
+    },
+    {
+      id: "p_canelo", ownerId: "u_ana", type: "perdida", resolved: false, species: "Perro", name: "Canelo", breed: "Mestizo", color: "Caramelo",
+      description: "Pequeño y muy juguetón, 3 años. Se para en dos patas cuando pide comida y ladea la cabeza cuando le hablan. Responde a su nombre.",
+      photos: ["seed:canelo"], zone: "Sarco", reference: "Av. Circunvalación, cerca del mercado de Sarco", date: isoDaysAgo(0), contactPhone: "79876543", createdAt: now - 5 * H,
+    },
+    {
       id: "p_canela", ownerId: "u_maria", type: "perdida", resolved: true, resolvedAt: now - 9 * 24 * H, species: "Perro", name: "Canela", breed: "Chihuahua", color: "Crema",
       description: "Chihuahua hembra con chompa gris. Ya volvió a casa gracias a una vecina que la reconoció.",
       photos: ["seed:canela"], zone: "Tupuraya", reference: "Av. Tadeo Haenke", date: isoDaysAgo(12), contactPhone: "71234567", createdAt: now - 12 * 24 * H,
